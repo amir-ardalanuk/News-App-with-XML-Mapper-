@@ -1,0 +1,53 @@
+PODS:
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - Swinject (2.7.1)
+  - SwinjectStoryboard (2.2.0):
+    - Swinject (~> 2.6)
+  - XMLParsing (0.0.3)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.0)
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+  - Swinject
+  - SwinjectStoryboard
+  - XMLParsing (from `https://github.com/ShawnMoore/XMLParsing.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - Swinject
+    - SwinjectStoryboard
+
+EXTERNAL SOURCES:
+  XMLParsing:
+    :git: https://github.com/ShawnMoore/XMLParsing.git
+
+CHECKOUT OPTIONS:
+  XMLParsing:
+    :commit: 594272e4df40798c53ae1735ee65f3f387291670
+    :git: https://github.com/ShawnMoore/XMLParsing.git
+
+SPEC CHECKSUMS:
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
+  XMLParsing: 085edb6fa22c71d6b53a79299f990a91e7414d19
+
+PODFILE CHECKSUM: 9efda98afb283bf0ef7c972bdef0e9e65b0615f8
+
+COCOAPODS: 1.6.1
